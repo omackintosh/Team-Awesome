@@ -1,0 +1,38 @@
+
+
+body {
+    background-image: url("http://templates-preview.com/HTML5/300111261/images/bg.jpg");
+}
+
+
+
+
+h1
+{border:20px 20px 20px 20px;
+ border-color: navy;
+ border-style:solid;
+ background-color: navy;
+ color: white;
+ word-spacing: 70px;
+ text-align: center;
+ font-family: courier; 
+}
+
+
+
+
+.travel
+{
+  position: fixed; 
+  top: 30%;
+  left: 50%;
+  border: #00008B 10px solid; 
+  
+}
+.airline
+{
+  position: fixed; 
+  top: 30%;
+  right: 50%;
+  border: #00008B 10px solid;
+}
