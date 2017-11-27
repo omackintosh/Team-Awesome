@@ -7,22 +7,7 @@ body {
 
 
 
-h1
-{border:20px 20px 20px 20px;
- border-color: navy;
- border-style:solid;
- background-color: navy;
- color: white;
- word-spacing: 70px;
- text-align: center;
- font-family: courier; 
 
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-}
 
 
 
