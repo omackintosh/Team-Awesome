@@ -16,6 +16,12 @@ h1
  word-spacing: 70px;
  text-align: center;
  font-family: courier; 
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 }
 
 
