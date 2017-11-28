@@ -1,13 +1,54 @@
-  	<p>We work with a range of airline partners serving the South East Asia region, helping to fill empty seats on planes flying to:</p>
+  	    <link rel='stylesheet' type='text/css' href='Destinations.css'> 
+ 		<script src="Destinations.java"></script> 
 
-  		<ul>
-		<li>Vietnam</li>
-		<li>Cambodia</li>
-		<li>Thailand</li>
-		<li>Malaysia</li>
-		<li>Borneo</li>
-	</ul>
+<html>
+<head>
 
-<div class="tiledBackground">
-	  	<img src="./SEAsiaMap.jpg"/>
+<style>
+div.background {
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+</style>
+
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+    <p>Destinations</p>
+  </div>
 </div>
+
+<div class="search">
+ <input type="text" name="Country" placeholder="Where?""> 
+</div>
+
+<div class="dates">
+<form action="/action_page.php">
+  <input type="date" name="travel">
+</form>
+
+<form action="/action_page.php">
+  <input type="date" name="travel">
+</form>
+</div>
+
+<div class="wrapper">
+<button class="button"><span>Take the plunge!</span></button>
+</div>
+
+</body>
+</html> 
