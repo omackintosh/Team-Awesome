@@ -40,6 +40,31 @@
       <button class='btn-facebook'>Facebook</button>
       <button class='btn-linkedin'>LinkedIn</button>
     </div>
+
+<script>
+
+
+function random_imglink(){
+var myimages=new Array()
+
+myimages[1]="Airplane.jpg"
+myimages[2]="Backpackers.jpg"
+myimages[3]="image3.gif"
+myimages[4]="image4.gif"
+myimages[5]="image5.gif"
+myimages[6]="image6.gif"
+
+var ry=Math.floor(Math.random()*myimages.length)
+if (ry==0)
+ry=1
+document.write('<img src="'+myimages[ry]+'" border=0>')
+}
+random_imglink()
+
+</script>
+
+</h1>
+      
   </div>
 
     <input type="email" placeholder="Your email">
