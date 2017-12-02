@@ -27,5 +27,6 @@ p{
   text-align: center;
 	-webkit-column-count: 3;
 	-webkit-column-gap: 40px;
+	padding: 100px;
 }
 
