@@ -48,6 +48,7 @@ div.search {
 div.dates {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
   font-size: 30px;
 }
 
@@ -97,3 +98,4 @@ div.dates {
 .button {
     position: relative;
 }
+
