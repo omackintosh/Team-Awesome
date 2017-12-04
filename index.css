@@ -1,3 +1,4 @@
+
 body{
 	background: black url("Team background.jpg");
 	background-repeat: no-repeat;
@@ -16,11 +17,13 @@ h2{
 	font-size: 40px;
 	text-align: center;
 	margin-bottom: 100px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 p{
 	color: white;
-	font-size: 25px;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
