@@ -47,8 +47,8 @@ div.search {
 
 div.dates {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-size: 30px;
 }
 
@@ -99,3 +99,7 @@ div.dates {
     position: relative;
 }
 
+.subscribe {
+  text-align: center;
+  margin-top: 25px;
+}
