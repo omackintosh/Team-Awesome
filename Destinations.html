@@ -25,6 +25,7 @@ div.transbox p {
 }
 </style>
 
+
 </head>
 <body>
 
@@ -35,8 +36,23 @@ div.transbox p {
 </div>
 
 <div class="search">
- <input type="text" name="Country" placeholder="Where?""> 
+ <input type="text" name="Country" placeholder="Where?" list="countries"> 
 </div>
+
+<datalist id="countries">
+  <option value="Brunei">
+  <option value="Cambodia">
+  <option value="East Timor">
+  <option value="Indonesia">
+  <option value="Laos">
+  <option value="Malaysia">
+  <option value="Myanmar">
+  <option value="Philippines">
+  <option value="Singapore">
+  <option value="Thailand">
+  <option value="Vietnman">
+</datalist>
+
 
 <div class="dates">
 <form action="/action_page.php">
@@ -49,8 +65,14 @@ div.transbox p {
 </div>
 
 <div class="wrapper">
-<button class="button"><span>Take the plunge!</span></button>
+  <button class="button"><span>Take the plunge!</span></button>
 </div>
+
+<div class="subscribe">
+  <input type="email" placeholder="Stay in touch!">
+  <input type="submit">
+</div>
+
 
 </body>
 </html> 
