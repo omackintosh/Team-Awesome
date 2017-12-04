@@ -1,72 +1,43 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <link rel="stylesheet" type="text/css" href="exercise2.css">
+<head>
+  <link rel="stylesheet" type="text/css" href="exercise2.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 
-        
-        <div class="dropdown">
+<h2>flyby</h2>
+
+<div class="dropdown">
   <button class="dropbtn">&#9776;</button>
   <div class="dropdown-content">
-    <a href=" Destinations.html">Destinations</a>
+    <a href="Destinations.html">For Travellers</a>
+    <a href="Airlines.html">For Airlines</a>
     <a href="index.html">About Us</a>
-    <a href="#">IDK</a>
   </div>
 </div>
 
+</head>
 
-
-    </head>
-    <body>
-
+ <body>
 
 <div class="travel">
-    <button>
- <img src="./Airplane.jpg"/ width="800" height="400"> 
-</button> 
+    <button class="for-airlines">
+      <img src="./Airplane.jpg"/ width="665" height="400"> 
+    </button> 
 </div>
 
 <div class= "airline">
-<button>
- <img src="./Backpackers.jpg"/ width="800" height="400">
-</button>
+  <button class="for-travellers">
+     <img src="./Backpackers.jpg"/ width="665" height="400">
+  </button>
 </div>
 
 
-</div>
-    <div id='social-buttons'>
-      <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fzuck&width=20&height=80&layout=standard&size=small&show_faces=true&appId=123499714380247" width="20" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<ul>
+  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+  <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+</ul>
 
-<h1>
-
-<script>
-
-
-function random_imglink(){
-var myimages=new Array()
-
-myimages[1]="Airplane.jpg"
-myimages[2]="Backpackers.jpg"
-myimages[3]="image3.gif"
-myimages[4]="image4.gif"
-myimages[5]="image5.gif"
-myimages[6]="image6.gif"
-
-var ry=Math.floor(Math.random()*myimages.length)
-if (ry==0)
-ry=1
-document.write('<img src="'+myimages[ry]+'" border=0>')
-}
-random_imglink()
-
-</script>
-
-</h1>
-      
-  </div>
-
-    <input type="email" placeholder="Your email">
-    <input type="submit">
-
+</body>
