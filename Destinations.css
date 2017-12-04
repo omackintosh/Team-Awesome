@@ -1,7 +1,12 @@
+
 body{
     background: black url("SEAsiaMap.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
 }
 
 
