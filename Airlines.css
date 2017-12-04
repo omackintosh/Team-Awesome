@@ -17,9 +17,11 @@ div.form {
   transition: all 0.5s;
   cursor: pointer;
   float: right;
+  font-family: 'Montserrat', sans-serif;
 }
 
 div.submit {
 	text-align: center;
 	padding: 10px;
+  
 }
