@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+<script src="/assets/jquery.js"></script>
+
+
+<div class="travellers show-description">
+
+  <p>For Travellers 
+  <small>The best way to travel fast without giving up on your flexibility nor your wallet.  </small></p>
+
+</div>
+
+<div class="airlines show-description">
+
+  <p>For Airlines 
+  <small>An easy way redistribute your available seats on a last minute basis. </small></p>
+</div>
+
+<script>
+$('div').on('click', function() {
+  $(this).toggleClass('show-description');
+});
+</script>

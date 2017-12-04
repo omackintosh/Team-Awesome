@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="/assets/jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="exercise2.css">
+        <title>CSS Exercises 1</title>
+        <style>
+            ul.nav li{
+                display: inline-block;
+                padding-right: 10px;
+            }
+        </style>
+
+        <a href="index.html" title="About Us">About us</a>
+        
+    <link rel='stylesheet' type='text/css' href='exercise2.css'> 
+</head>
+
+<body> 
+<h1>
+    <ul>
+  <li><a href="home.asp">Home</a></li>
+  <li><a href="destinations.asp">Destinations</a></li>
+  <li><a href="aboutus.asp">About Us</a></li>
+  <li><a href="FAQs.asp">FAQs</a></li>
+</ul>
+</h1>
+
+
+<div class="travel show-description">
+ <img src="./Airplane.jpg"/ width="500" height="600"> 
+ <p>For Travellers 
+  <small>The best way to travel fast without giving up on your flexibility nor your wallet.  </small></p>
+
+</div>
+
+<div class= "airline show-description">
+<p>For Airlines 
+  <small>An easy way redistribute your available seats on a last minute basis. </small></p>
+</div>
+
+<script>
+$('div').on('click', function() {
+  $(this).toggleClass('show-description');
+});
+</script>
+</body>
